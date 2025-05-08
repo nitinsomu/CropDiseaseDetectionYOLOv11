@@ -1,0 +1,72 @@
+/* Center the form and its content */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f5e9; /* Light green background */
+}
+
+.container {
+    background: #f4fff7; /* White with a hint of green */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+h1 {
+    color: #2e7d32; /* Dark green text */
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background-color: #388e3c; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}
+
+.prediction {
+    font-size: 18px;
+    color: #388e3c;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.ti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2e7d32; /* Green title color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
